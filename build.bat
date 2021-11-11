@@ -1,2 +1,2 @@
 
-E:\"VISUAL STUD"\MSBuild\Current\Bin\msbuild.exe .\JenkinsTest\JenkinsTest.sln
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe .\JenkinsTest\JenkinsTest.sln
