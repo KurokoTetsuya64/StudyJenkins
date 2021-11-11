@@ -24,7 +24,7 @@ pipeline {
 
         stage('Unarchive') {
             steps {
-                unzip zipFile: env.BUILD_NUMBER.toString() + '.zip', dir: 'G:\\deploy\\' + env.BUILD_NUMBER.toString()
+                unzip zipFile: env.BUILD_NUMBER.toString() + '.zip', dir: 'E:\\deploy\\' + env.BUILD_NUMBER.toString()
             }
         }
     }
