@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" "JenkinsTest\JenkinsTestUnitTest\bin\Debug\JenkinsTestUnitTest.dll"
+"E:\VISUAL STUD\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" "JenkinsTest\JenkinsTestUnitTest\bin\Debug\JenkinsTestUnitTest.dll"
