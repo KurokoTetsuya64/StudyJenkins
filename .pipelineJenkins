@@ -17,7 +17,7 @@ pipeline {
         stage('Archive') {
             steps {
                 script {
-                    zip zipFile: env.BUILD_NUMBER.toString() + '.zip', dir: '.\JenkinsTest\JenkinsTest\bin\Debug'
+                    zip zipFile: env.BUILD_NUMBER.toString() + '.zip', dir: 'JenkinsTest\\JenkinsTest\\bin\\Debug'
                 }
             }
         }
