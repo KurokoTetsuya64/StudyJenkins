@@ -28,6 +28,7 @@ pipeline {
                 unzip zipFile: env.BUILD_NUMBER.toString() + '.zip', dir: 'E:\\deploy\\' + env.BUILD_NUMBER.toString()
             }
         }
+}
         
 post {
 	  always{
@@ -35,6 +36,6 @@ post {
 		Check console output at $BUILD_URL to view the results. ${JELLY_SCRIPT, template="html"}''', subject: '$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!', to: 'Serkuz1990@list.ru'
 	        }
           
-         }
+        
     }
 }    
